@@ -1,24 +1,35 @@
 import React from 'react';
-import logo from './logo.svg';
+
+
+import Header from './Header/Header';
+import Navbar from './Navbar/Navbar';
+import MainImg from './MainImg/MainImg';
+import SocialNetworks from './SocialNetworks/SocialNetworks';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+
+      <div className='app-wraper'>
+        <div className='app-wraper-header'>
+          <Header />
+        </div>
+        <div className="app-social-networks">
+        <SocialNetworks />
+        </div>
+
+        {/* <div className='app-navbar'>
+                  <Navbar />
+                </div> */}
+        <div className='app-wrapper-main-img'>
+          <MainImg />
+         
+        </div>
+        <div className='app-wraper-navbar'>
+          <Navbar />
+        </div>
+      </div>
     </div>
   );
 }
