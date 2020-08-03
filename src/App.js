@@ -6,6 +6,7 @@ import Navbar from './Navbar/Navbar';
 import MainImg from './MainImg/MainImg';
 import SocialNetworks from './SocialNetworks/SocialNetworks';
 import './App.css';
+import Content from './Content/Content';
 
 function App() {
   return (
@@ -28,6 +29,9 @@ function App() {
         </div>
         <div className='app-wraper-navbar'>
           <Navbar />
+        </div>
+        <div>
+        <Content />
         </div>
       </div>
     </div>

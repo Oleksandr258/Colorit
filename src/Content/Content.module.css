@@ -1,27 +1,13 @@
-/* .mainImg img {
-  /* .height: 100px; */
-  /* width: 500px; */
-  /* align-items: center;
-  justify-content: center; 
-  
-} */
-
-/* .mainImg {
-  
-  display: flex;
-  justify-content: center;
+.content {
+  margin-top: 3000px;
+  margin: 0 auto;
+  display: grid;
+  /* width: 700px; */
+  grid-template-areas: "a b d" "f g i" "j k l" "m n p";
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.tile1 {
+  grid-area: a;
  
-  background-color: grey;
-} */
-/* .mainImg {
-  grid-area: m;
-  background-color: rgb(199, 231, 57);
-  } */
-  .mainImg img {
-    height: 130px;
-    margin-top: 0px;
-  margin-left: 150px;
-
-  
-
-  }
+}
