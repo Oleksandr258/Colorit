@@ -7,8 +7,10 @@ const Header = () => {
     return <header 
     className={classes.header} 
     >
+<div>
 
-        <img src={imageLogoColorit} alt="ligo" />
+</div>
+        {/* <img src={imageLogoColorit} alt="logo" /> */}
 
     </header>
 }

@@ -16,9 +16,9 @@ function App() {
         <div className='app-wraper-header'>
           <Header />
         </div>
-        <div className="app-social-networks">
+        {/* <div className="app-social-networks">
         <SocialNetworks />
-        </div>
+        </div> */}
 
         {/* <div className='app-navbar'>
                   <Navbar />

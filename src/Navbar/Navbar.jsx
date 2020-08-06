@@ -14,7 +14,7 @@ const Navbar = () => {
     return (
         <div>
            
-<div>
+<div className={classes.navbarWrapper}>
             <Section1 />
             <Section2 />
             <Section3 />

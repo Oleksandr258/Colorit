@@ -1,6 +1,6 @@
 import React from 'react';
 import classes from './SocialNetworks.module.css';
-import socialNetworks from '../img/sotial_networks.jpg';
+import socialNetworks from '../img/instagram1.png';
 
 
 const SocialNetworks = () => {

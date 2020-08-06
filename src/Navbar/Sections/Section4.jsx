@@ -6,7 +6,7 @@ import classes from './Sections.module.css';
 const Section4 = () => {
     return (
         <div className={classes.sections}>
-        Картины
+         <h6>СОВЕТЫ</h6>
        
 </div>
     )
