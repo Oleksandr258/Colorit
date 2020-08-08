@@ -1,0 +1,11 @@
+.navbarWrapper {
+    
+
+}
+.navbarItems a {
+    color: white;
+}
+.navbarItems a:hover,
+.navbarItems a:active {
+    color: rgb(72, 72, 180);
+}
