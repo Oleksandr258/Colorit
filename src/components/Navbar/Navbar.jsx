@@ -1,12 +1,6 @@
 import React from 'react';
 import classes from './Navbar.module.css';
-import Section1 from './Sections/Section1';
-import Section2 from './Sections/Section2';
-import Section3 from './Sections/Section3';
-import Section4 from './Sections/Section4';
-import Section5 from './Sections/Section5';
-import Section6 from './Sections/Section6';
-import Section7 from './Sections/Section7';
+
 
 
 
@@ -16,13 +10,16 @@ const Navbar = () => {
 
             <div className={classes.navbarWrapper}>
                 <div className={classes.navbarItems}>
-                    <Section1 />
-                    <Section2 />
-                    <Section3 />
-                    <Section4 />
-                    <Section5 />
-                    <Section6 />
-                    <Section7 />
+                    
+                    <ul>
+            <li><a href="/">ГЛАВНАЯ</a></li>
+            <li><a href="/interviewwithbeginner">РУБРИКА "ИНТЕРВЬЮ У НАЧИНАЮЩЕГО"</a></li>
+            <li><a href="/artnews">НОВОСТИ ИСКУССТВА</a></li>
+            <li><a href="/advices">СОВЕТЫ</a></li>
+            <li><a href="/inspirationspaces">МЕСТА ДЛЯ ВДОХНОВЕНИЯ</a></li>
+            <li><a href="/artistssculptors">ХУДОЖНИКИ СКУЛЬПТОРЫ</a></li>
+            <li><a href="/newsoftheday">НОВОСТЬ ДНЯ</a></li>
+        </ul>
                 </div>
             </div>
         </nav>

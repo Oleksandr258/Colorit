@@ -1,11 +1,30 @@
 .navbarWrapper {
-    
+      background: rgb(37, 35, 41);
+ }
 
+ .navbarItems a:hover,
+.navbarItems a:active {
+    color: rgb(72, 72, 180);
 }
+.navbarItems ul {
+    height: 100%;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.navbarItems li {
+    margin: 1rem 0;
+}
+
 .navbarItems a {
     color: white;
+    text-decoration: none;
+    font-size: 1rem;
 }
+
 .navbarItems a:hover,
 .navbarItems a:active {
     color: rgb(72, 72, 180);
+    
 }

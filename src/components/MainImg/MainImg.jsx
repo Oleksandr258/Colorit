@@ -4,9 +4,9 @@ import classes from './MainImg.module.css';
 import SocialNetworks from '../SocialNetworks/SocialNetworks';
 import DrawerToggleButton from '../SideDrawer/DrawerToggleButton';
 
-const MainImg = () => {
-    return (
-        <div>
+const MainImg = props => (
+           <header>
+        
             <div className={classes.mainImgWrapper}>
 
                 <div className={classes.mainImgtext1}>
@@ -20,11 +20,12 @@ const MainImg = () => {
                     <SocialNetworks />
                 </div>
                 <div className={classes.drawerToggleButton}>
-                    <DrawerToggleButton  />
+                    <DrawerToggleButton click={props.drawerCklickHandler} />
                 </div>
             </div>
-        </div>
+        
+        </header>
     )
-}
+    
 
 export default MainImg;

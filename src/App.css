@@ -6,22 +6,18 @@
     grid-template-rows: 200px 40px 1fr;
     grid-template-columns: 10fr 1fr;
 }
-/* .app-social-networks {
-    grid-area: s;
-    background-color: white;
-} */
+
 .app-wrapper-main-img {
     grid-area: m;
     background-color: white;
-    
-    
+      
     
 }
 
 .app-wraper-header {
     grid-area: h;
     background-color: rgb(37, 35, 41);
-    /* margin-top: 0px; */
+   
 }
 .app-wraper-navbar {
     grid-area: c;
@@ -30,26 +26,21 @@
     padding: 0px;
     height: 450px;
     }
+    .app-wrappet-content-main {
+        grid-area: n;
+        
+    }
 
-/* .app-wrapper-content {
-    grid-area: c;
-    background-color: cornflowerblue;
+    @media (max-width: 768px) {
+        .app-wraper-navbar  {
+            display: none;
+        }
+       
+      }
+      @media (max-width: 768px) {
+      .app-wrappet-content-main {
+        grid-area: n c;
+        
+        
+    } 
 }
-.app-wrapper-friends {
-    grid-area: f;
-    background-color: burlywood;
-
-} */
-
-/*.app-wrapper-friends {
-    grid-area: n;
-    background-color: #64edd2;
-
-}*/
-
-/*
-.app-wrapper-navbar {
-    grid-area: n;
-    background-color: #ed8f64;
-
-}*/
