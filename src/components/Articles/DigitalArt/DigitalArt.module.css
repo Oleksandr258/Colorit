@@ -1,0 +1,124 @@
+.pageContent {
+  text-align: center;
+}
+
+.pic1 img {
+ margin-top: 3rem;
+  width: 40vw;
+}
+
+
+
+.collage3 {
+  display: grid;
+  grid-template-columns: repeat(10, 8vw);
+}
+
+.pic3 {
+  grid-column: 2 / 4;
+  z-index: 100;
+}
+
+.pic4 {
+  grid-column-start: 5;
+  grid-column-end: 6;
+  z-index: 200;
+}
+
+.pic3 img {
+ 
+  width: 45vw;
+}
+
+.pic4 img {
+  margin-top: 28vw;
+  width: 40vw;
+}
+
+.collage5 {
+  display: grid;
+  grid-template-columns: repeat(10, 8vw);
+}
+
+.pic5 {
+  grid-column: 3 / 6;
+  z-index: 100;
+}
+
+.pic6 {
+  grid-column-start: 6;
+  grid-column-end: 7;
+  z-index: 200;
+}
+
+.pic5 img {
+ margin-left: 4vw;
+  width: 35vw;
+}
+
+.pic6 img {
+  margin-top: 18vw;
+  width: 30vw;
+}
+
+
+
+.collage7 {
+  display: grid;
+  grid-template-columns: repeat(10, 8vw);
+}
+
+.pic7 {
+  grid-column: 2 / 4;
+  z-index: 100;
+}
+
+.pic8 {
+  grid-column-start: 7;
+  grid-column-end: 8;
+  z-index: 200;
+}
+
+.pic7 img {
+ 
+  width: 45vw;
+}
+
+.pic8 img {
+  margin-top: 22vw;
+  width: 30vw;
+}
+
+.line {
+  border-left: 10px solid rgb(163, 201, 226);
+  /* Параметры линии */
+  margin-left: 30px;
+  /* Отступ слева */
+  padding-left: 20px;
+  /* Расстояние от линии до текста */
+}
+
+.pageContent2 {
+  margin-right: 30px;
+  margin-left: 30px;
+}
+
+.smallText {
+  font-size: 0.8rem;
+}
+
+.endLine {
+  height: 100px;
+}
+
+.titleLine {
+  padding: 1em 0;
+  text-align: center;
+  /* выровнять текст и картинки по горизонтали */
+  background-color: rgb(50, 38, 83);
+  width: 100%;
+  color: white;
+  font-size: 1.8rem;
+  vertical-align: middle;
+}
+

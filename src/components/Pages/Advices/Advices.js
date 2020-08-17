@@ -3,9 +3,10 @@ import React from 'react';
 const Advices = () => {
     return (
         <div >
+ <div className="titleLine">
+                СОВЕТЫ
+            </div>
 
-AdvicesAdvicesAdvicesAdvices AdvicesAdvicesAdvices
-AdvicesAdvicesAdvices
         </div>
     )
 }

@@ -3,8 +3,10 @@ import React from 'react';
 const NewsOfTheDay = () => {
     return (
         <div >
+<div className="titleLine">
+               НОВОСТЬ ДНЯ
+            </div>
 
-NewsOfTheDay NewsOfTheDay NewsOfTheDay
         </div>
     )
 }

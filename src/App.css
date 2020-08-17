@@ -10,37 +10,50 @@
 .app-wrapper-main-img {
     grid-area: m;
     background-color: white;
-      
-    
 }
 
 .app-wraper-header {
     grid-area: h;
     background-color: rgb(37, 35, 41);
-   
 }
+
 .app-wraper-navbar {
     grid-area: c;
     margin-top: 5px;
     background-color: rgb(37, 35, 41);
     padding: 0px;
     height: 450px;
-    }
-    .app-wrappet-content-main {
-        grid-area: n;
-        
-    }
+}
 
-    @media (max-width: 768px) {
-        .app-wraper-navbar  {
-            display: none;
-        }
-       
-      }
-      @media (max-width: 768px) {
-      .app-wrappet-content-main {
-        grid-area: n c;
-        
-        
-    } 
+.app-wrappet-content-main {
+    grid-area: n;
+}
+
+.titleLine {
+    padding: 1em 0;
+    text-align: center;
+    /* выровнять текст и картинки по горизонтали */
+    background-color: rgb(50, 38, 83);
+    width: 100%;
+    color: white;
+    font-size: 1.8rem;
+    vertical-align: middle;
+}
+
+@media (max-width: 768px) {
+    .app-wraper {
+        grid-template-areas: "m m" "h h" "n n";
+    }
+}
+
+@media (max-width: 768px) {
+    .app-wraper-navbar {
+        display: none;
+    }
+}
+
+@media (max-width: 768px) {
+    .app-wrappet-content-main {
+        grid-area: n n;
+    }
 }

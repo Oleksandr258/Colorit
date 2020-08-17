@@ -6,8 +6,9 @@ import picSocialNetworks from '../../img/instagram1.png';
 const SocialNetworks = () => {
     return (
         <div className={classes.socialNetworks}>
-        <img src={picSocialNetworks} alt="Social networks" />
-       
+        <a href="https://instagram.com/coloritmagazine?igshid=18x35wdzuaokb" >
+            <img src={picSocialNetworks} alt="Social networks" /></a>
+ 
 </div>
     )
 }

@@ -1,0 +1,161 @@
+.pageContent {
+  text-align: center;
+}
+
+.pageContent h3 {
+  margin-top: 3rem;
+}
+
+.collage1 {
+  display: grid;
+  grid-template-columns: repeat(10, 8vw);
+}
+
+.pic1 {
+  grid-column: 2 / 4;
+  z-index: 200;
+}
+
+.pic2 {
+  grid-column-start: 5;
+  grid-column-end: 6;
+  z-index: 100;
+}
+
+.pic1 img {
+  margin-top: 6vw;
+  width: 30vw;
+}
+
+.pic2 img {
+  width: 40vw;
+}
+
+.collage3 {
+  display: grid;
+  grid-template-columns: repeat(10, 8vw);
+}
+
+.pic3 {
+  grid-column: 2 / 4;
+  z-index: 100;
+}
+
+.pic4 {
+  grid-column-start: 7;
+  grid-column-end: 8;
+  z-index: 200;
+}
+
+.pic3 img {
+ 
+  width: 60vw;
+}
+
+.pic4 img {
+  margin-top: 20vw;
+  width: 32vw;
+}
+
+.collage5 {
+  display: grid;
+  grid-template-columns: repeat(10, 8vw);
+}
+
+.pic5 {
+  grid-column: 2 / 4;
+  z-index: 100;
+}
+
+.pic6 {
+  grid-column-start: 7;
+  grid-column-end: 8;
+  z-index: 200;
+}
+
+.pic5 img {
+ 
+  width: 60vw;
+}
+
+.pic6 img {
+  margin-top: 20vw;
+  width: 32vw;
+}
+
+.pic7 img {
+  
+  width: 70vw;
+}
+
+.collage8 {
+  display: grid;
+  grid-template-columns: repeat(10, 8vw);
+}
+
+.pic8 {
+  grid-column: 2 / 4;
+  z-index: 100;
+}
+
+.pic9 {
+  grid-column-start: 7;
+  grid-column-end: 8;
+  z-index: 200;
+}
+
+.pic8 img {
+ 
+  width: 45vw;
+}
+
+.pic9 img {
+  margin-top: 17vw;
+  width: 35vw;
+}
+
+.line {
+  border-left: 10px solid rgb(163, 201, 226);
+  /* Параметры линии */
+  margin-left: 30px;
+  /* Отступ слева */
+  padding-left: 20px;
+  /* Расстояние от линии до текста */
+}
+
+.pageContent2 {
+  margin-right: 30px;
+  margin-left: 30px;
+}
+
+.smallText {
+  font-size: 0.8rem;
+}
+
+.endLine {
+  height: 100px;
+}
+
+.titleLine {
+  padding: 1em 0;
+  text-align: center;
+  /* выровнять текст и картинки по горизонтали */
+  background-color: rgb(50, 38, 83);
+  width: 100%;
+  color: white;
+  font-size: 1.8rem;
+  vertical-align: middle;
+}
+
+@media (max-width: 768px) {
+  .collage1 {
+    grid-template-columns: repeat(10, 10vw);
+  }
+  .pic1 img {
+    margin-top: 7vw;
+    width: 35vw;
+  }
+  .pic2 img {
+    width: 45vw;
+  }
+}

@@ -1,0 +1,39 @@
+
+
+  .pageContent {
+    text-align: center;
+  }
+  
+  .line {
+    border-left: 10px solid rgb(163, 201, 226);
+    /* Параметры линии */
+    margin-left: 30px;
+    /* Отступ слева */
+    padding-left: 20px;
+    /* Расстояние от линии до текста */
+    text-align: left;
+  }
+  
+  .pageContent2 {
+    margin-right: 30px;
+    margin-left: 30px;
+  }
+  
+  
+  
+  .endLine {
+    height: 50px;
+  }
+  
+  .titleLine {
+    padding: 1em 0;
+    text-align: center;
+    /* выровнять текст и картинки по горизонтали */
+    background-color: rgb(50, 38, 83);
+    width: 100%;
+    color: white;
+    font-size: 1.8rem;
+    vertical-align: middle;
+  }
+  
+  

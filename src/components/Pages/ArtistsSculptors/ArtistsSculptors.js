@@ -6,14 +6,15 @@ import picTile6 from '../../../img/i6.jpg';
 const ArtistsSculptors = () => {
     return (
         <div >
- <div className="title3">
-                Художники скульпторы
+ <div className="titleLine">
+                ХУДОЖНИКИ СКУЛЬПТОРЫ
             </div>
 
 
             <div className="artistsSculptorsCont">
+                
 
-                    <li><a href="/interviewwithbeginner" > <img src={picTile} alt="LERA DOPIRCHUK" />
+                    {/* <li><a href="/interviewwithbeginner" > <img src={picTile} alt="LERA DOPIRCHUK" />
                     LERA DOPIRCHUK фотограф работы которого завораживают</a></li>
         <li><a href="/interviewwithbeginner" > <img src={picTile6} alt="butiful places" />
         фотограф с большим будущим VIKA LEVINA</a></li>
@@ -22,7 +23,7 @@ const ArtistsSculptors = () => {
         <li><a href="/interviewwithbeginner" > <img src={picTile} alt="butiful places" />
         Топ 5 самых красивых мест для пейзажей</a></li>
         <li><a href="/interviewwithbeginner" > <img src={picTile} alt="butiful places" />
-        Топ 5 самых красивых мест для пейзажей</a></li>
+        Топ 5 самых красивых мест для пейзажей</a></li> */}
 
 
 

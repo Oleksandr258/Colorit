@@ -1,0 +1,51 @@
+.pageContent {
+  
+  
+  text-align: center;
+}
+
+.pageContent h3 {
+  
+  
+ margin-top: 3rem;
+}
+.pageContent img {
+  width: 100%;
+  align-content: center;
+  margin-top: auto;
+  margin-bottom: 0;
+}
+
+
+
+.pageContent2{
+  margin-right: 3rem;
+  margin-left: 3rem;
+  font-size: 1.2rem;
+}
+
+.smallText {
+  
+  font-size: 0.8rem;
+}
+
+.endLine {
+  height: 100px;
+}
+.titleLine {
+  
+  padding: 1em 0;
+  text-align: center; /* выровнять текст и картинки по горизонтали */
+  
+  background-color: rgb(50, 38, 83);
+  width: 100%;
+  color: white;
+  font-size: 1.8rem;
+  
+  vertical-align: middle;
+}
+@media (max-width: 768px) {
+  .pageContent img {
+    width: 100%;
+  }
+}

@@ -1,27 +1,40 @@
 .content {
-  
-  
-  display: grid;
-  
-  grid-template-areas: "a b" "f g" "j k" "m n";
-  
-  grid-template-columns: 1fr 1fr;
-  margin-left: 10px;
-  margin-right: 10px;
-  grid-column-gap: 1em;
-  grid-row-gap: 1em;
+    display: grid;
+    grid-template-areas: "a b" "f g" "j k" "m n";
+    grid-template-columns: 1fr 1fr;
+  margin-left: 20px;
+  margin-right: 20px;
+  grid-column-gap: 3em;
+  grid-row-gap: 3em;
+  text-align: center;
+  margin-top: 20px;
 }
 
+.content a {
+  text-align: center;
+}
 .content img {
   
   width: 100%;
-    margin-top: 10px;
-   
+    margin-top: 15px; 
+}
+
+.content li {
+  list-style: none;
+}
+
+
+.competitionWraper img {
+width: 20vw;
+
 }
 
 @media (max-width: 768px) {
   .content {
     display: block;
-    
-} 
+    } 
+.competitionWraper img {
+  width: 60vw;
+  margin-left: ;
+  }
 }

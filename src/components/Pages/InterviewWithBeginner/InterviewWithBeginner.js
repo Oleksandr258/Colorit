@@ -5,22 +5,17 @@ import picTile3 from '../../../img/i3.jpg';
 
 const InterviewWithBeginner = () => {
     return (
+        <div>
+            <div className="titleLine">
+                РУБРИКА "ИНТЕРВЬЮ У НАЧИНАЮЩЕГО"
+            </div>
+            <div className="interviewWrapper" >
 
-        <div className="interviewWrapper" >
-           
-                
-                <li><a href="/interviewwithbeginner" > <img src={picTile} alt="anonimus" />
-        Искусство спасло меня и сделало счастливым/ой...</a></li>
-                <li><a href="/interviewwithbeginner" > <img src={picTile3} alt="anonimus" />
-        Искусство вышивки или золотые руки</a></li>
-                <li><a href="/interviewwithbeginner" > <img src={picTile} alt="anonimus" />
-        Искусство спасло меня и сделало счастливым/ой...</a></li>
-                <li><a href="/interviewwithbeginner" > <img src={picTile} alt="anonimus" />
-        Искусство спасло меня и сделало счастливым/ой...</a></li>
-                <li><a href="/interviewwithbeginner" > <img src={picTile} alt="anonimus" />
+
+                <li><a href="/newabstractionist" > <img src={picTile} alt="anonimus" />
         Искусство спасло меня и сделало счастливым/ой...</a></li>
 
-           
+            </div>
 
         </div>
     )

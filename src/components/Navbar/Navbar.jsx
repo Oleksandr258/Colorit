@@ -19,6 +19,8 @@ const Navbar = () => {
             <li><a href="/inspirationspaces">МЕСТА ДЛЯ ВДОХНОВЕНИЯ</a></li>
             <li><a href="/artistssculptors">ХУДОЖНИКИ СКУЛЬПТОРЫ</a></li>
             <li><a href="/newsoftheday">НОВОСТЬ ДНЯ</a></li>
+            <li><a href="/creativeperson">ИНТЕРВЬЮ У ТВОРЧЕСКОГО ЧЕЛОВЕКА</a></li>
+            <li><a href="/artdiscover">ОТКРЫТИЕ ИСКУССТВА</a></li>
         </ul>
                 </div>
             </div>

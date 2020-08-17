@@ -5,24 +5,16 @@ import picTile from '../../../img/i1.jpg';
 const InspirationSpaces = () => {
     return (
         <div >
-            <div className="title2">
-                Места для вдохновения
+           <div className="titleLine">
+                МЕСТА ДЛЯ ВДОХНОВЕНИЯ
             </div>
 
 
             <div className="inspirationPlacesCont">
 
-                    <li><a href="/interviewwithbeginner" > <img src={picTile} alt="butiful places" />
+                    <li><a href="/inspirationspaces/blagaj" > <img src={picTile} alt="butiful places" />
         Топ 5 самых красивых мест для пейзажей</a></li>
-        <li><a href="/interviewwithbeginner" > <img src={picTile} alt="butiful places" />
-        Топ 5 самых красивых мест для пейзажей</a></li>
-        <li><a href="/interviewwithbeginner" > <img src={picTile} alt="butiful places" />
-        Топ 5 самых красивых мест для пейзажей</a></li>
-        <li><a href="/interviewwithbeginner" > <img src={picTile} alt="butiful places" />
-        Топ 5 самых красивых мест для пейзажей</a></li>
-        <li><a href="/interviewwithbeginner" > <img src={picTile} alt="butiful places" />
-        Топ 5 самых красивых мест для пейзажей</a></li>
-
+        
 
 
             </div>
