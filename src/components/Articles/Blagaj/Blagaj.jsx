@@ -6,13 +6,17 @@ import picTile3 from '../../../img/n3.jpg';
 import picTile4 from '../../../img/n4.jpg';
 import picTile5 from '../../../img/n5.jpg';
 
+import { useTranslation } from 'react-i18next';
 
 
-const Blagaj = () => {
+
+function Blagaj  ()  {
+    const { t, i18n } = useTranslation();
     return (
         <div className={classes.pageContent}>
             <div className={classes.titleLine}>
                 ТОП 5 САМЫХ КРАСИВЫХ МЕСТ ДЛЯ ПЕЙЗАЖА
+                {t('WelcomeToReact')}
             </div>
             <div className={classes.pageContent2}>
 

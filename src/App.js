@@ -33,7 +33,12 @@ import Competition2 from './components/Articles/Competition/Competition2';
 import Photographers from './components/Articles/Photographers/Photographers';
 
 
+
+
 class App extends Component {
+
+
+
   state = {
     sideDrawerOpen: false
   }
@@ -47,6 +52,7 @@ class App extends Component {
     this.setState({ sideDrawerOpen: false });
   }
 
+
   render() {
 
     let backdrop;
@@ -58,7 +64,10 @@ class App extends Component {
 
 
 
+
+
     return (
+
       <BrowserRouter basename={process.env.PUBLIC_URL}>
         <div style={{ height: '100%' }}>
           <SideDrawer show={this.state.sideDrawerOpen} />
@@ -103,7 +112,7 @@ class App extends Component {
                     <Route path="/competition2" component={Competition2} />
                     <Route path="/photographers" component={Photographers} />
 
-                    
+
                     <Redirect from='/' to='/home' />
                   </Switch>
                 </Router>
