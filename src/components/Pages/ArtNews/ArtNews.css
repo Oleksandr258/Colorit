@@ -1,3 +1,28 @@
-.socialNetworks {
-    background-color: lightcoral;
-}
+.artNewsCont {
+  
+  
+    display: grid;
+    
+    grid-template-areas: "a b" "f g" "j k" "m n";
+    
+    grid-template-columns: 1fr 1fr;
+    margin-left: 10px;
+    margin-right: 10px;
+    grid-column-gap: 1em;
+    grid-row-gap: 2em;
+    list-style: none;
+  }
+  
+  .artNewsCont img {
+    
+    width: 100%;
+      margin-top: 10px;
+     
+  }
+  
+  @media (max-width: 768px) {
+    .artNewsCont {
+      display: block;
+      
+  } 
+  }

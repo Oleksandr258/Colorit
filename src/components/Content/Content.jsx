@@ -1,5 +1,5 @@
 import React from 'react';
-import classes from './Content.module.css';
+import  './Content.css';
 import Tile from './Tile1/Tile1';
 import Tile2 from './Tile2/Tile2';
 import Tile3 from './Tile3/Tile3';
@@ -18,47 +18,47 @@ import Tile12 from './Tile12/Tile12';
 
 const Content = () => {
     return (
-        <div className={classes.content}>
-            <div className={classes.tile1}>
+        <div className="content">
+            <div >
               <Tile />   
             </div>
-            <div className={classes.tile2}>
+            <div >
               <Tile2 />   
             </div>
-            <div className={classes.tile3}>
+            <div >
               <Tile3 />   
             </div>
-            <div className={classes.tile4}>
+            <div >
               <Tile4 />   
             </div>
-            <div className={classes.tile5}>
+            <div >
               <Tile5 />   
             </div>
-            <div className={classes.tile6}>
+            <div >
               <Tile6 />   
             </div>
-            <div className={classes.tile7}>
+            <div>
               <Tile7 />   
             </div>
-            <div className={classes.tile8}>
+            <div >
               <Tile8 />   
             </div>
-            <div className={classes.tile9}>
+            <div>
               <Tile9 />   
             </div>
-            <div className={classes.tile9}>
+            <div >
               <Tile9 />   
             </div>
-            <div className={classes.tile10}>
+            <div >
               <Tile10 />   
             </div>
-            <div className={classes.tile11}>
+            <div >
               <Tile11 />   
             </div>
-            <div className={classes.tile11}>
+            <div >
               <Tile11 />   
             </div>
-            <div className={classes.tile12}>
+            <div >
               <Tile12 />   
             </div>
            

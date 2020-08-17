@@ -1,0 +1,51 @@
+.inspirationPlacesCont {
+  
+  
+    display: grid;
+    
+    grid-template-areas: "a b" "f g" "j k" "m n";
+    
+    grid-template-columns: 1fr 1fr;
+    margin-left: 10px;
+    margin-right: 10px;
+    grid-column-gap: 1em;
+    grid-row-gap: 2em;
+    list-style: none;
+  }
+  
+  .inspirationPlacesCont img {
+    
+    width: 100%;
+      margin-top: 10px;
+     
+  }
+  
+  @media (max-width: 768px) {
+    .inspirationPlacesCont {
+      display: block;
+      
+  } 
+  }
+
+
+.title2 {
+    background-color: dimgray;
+    height: 100px;
+    
+    color: white;
+    text-align: center;
+    font-size: 3rem;
+    list-style: none;
+   
+    margin-top: 5px;
+
+}
+
+.title2 text {
+    position: cener;
+    
+   
+   
+    vertical-align: middle;
+}
+

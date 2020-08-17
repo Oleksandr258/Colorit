@@ -10,6 +10,8 @@ import {
   BrowserRouter as Router,
   Switch,
   Route,
+  Redirect,
+    withRouter,
   Link
 } from "react-router-dom";
 import ArtNews from './components/Pages/ArtNews/ArtNews';
@@ -83,7 +85,7 @@ class App extends Component {
                   <Route path="/artistssculptors" component={ArtistsSculptors} />
                   <Route path="/newsoftheday" component={NewsOfTheDay} />
 
-                 
+                  <Redirect from='/' to='/home'/>
                 </Switch>
               </Router>
             </div>
