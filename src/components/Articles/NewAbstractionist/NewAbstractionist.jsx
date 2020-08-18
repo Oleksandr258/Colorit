@@ -4,81 +4,74 @@ import picTile5 from '../../../img/b5.jpg';
 import picTile6 from '../../../img/b6.jpg';
 import picTile7 from '../../../img/b7.jpg';
 import picTile8 from '../../../img/b8.jpg';
+import { useTranslation } from 'react-i18next';
 
 const NewAbstractionist = () => {
+    const { t, i18n } = useTranslation();
     return (
         <div className={classes.pageContent}>
             <div className={classes.titleLine}>
-                НОВОИСПЕЧЕННЫЙ АБСТРАКЦИОНИСТ
+           
+            {t('NEWBREAKED ABSTRACTIST')}
             </div>
             <div className={classes.pageContent2}>
 
                 <div className={classes.smallText}>
-                    <p>«Интервью с начинающим художником»</p>
+                    <p> {t('Interview with an aspiring artist')}</p>
 
-                    <p>В этом рубрике мы знакомимся с молодыми художниками и задаем им несколько вопросов об их искусстве и что побудило их на создание прекрасного </p>
+                    <p> {t('In this section, we meet young artists')}</p>
                     <br></br>
-                    <p>Сегодня мы берем интервью у anonim </p>
-                    <p>Наш персонаж хочет держать свою персону в тайне.</p>
+                    <p> {t('Today we interview anonymous artist')}</p>
+        
                 </div>
 
-                <h3>Почему ты решил/а оставаться за маской?</h3>
+                <h3> {t('Why did you decide to stay behind the mask?')}</h3>
                 <div className={classes.line}>
-                    <p>«Я хочу через картины общаться со зрителем,передавать свои эмоции с помощью красок.Я считаю такие картины очень интимными,так как душа это самое сокровенное и таинственное в людях,и смысла показывать лицо из-за этого я не вижу»</p>
+                    <p> {t('I want to communicate with')}</p>
                 </div>
 
-                <h3>Когда ты заинтересовался/лась изобразительным искусством?</h3>
+                <h3> {t('When did you become interested in the visual arts?')}</h3>
 
                 <div className={classes.line}>
-                    <p>«Еще с малых лет.Сначала это были цветочки на дверях ,а возрасте 12 лет я забросил/а рисование и занимался/лась танцами и посещал/а муз школу.И в возрасте 15 лет у меня снова появилось рвение к рисованию и на этот раз именно мои эмоции заставили меня рисовать»</p>
+                    <p> {t('From an early age')}</p>
                 </div>
                 <div><img src={picTile5} alt="Main image" />
                     <a href=" https://etsy.me/39QEreK" >
                         anonymous</a>
                 </div>
-                <h3>Какие эмоции или даже события который вызвали эти эмоции повлияли на твое вдохновение?</h3>
+                <h3> {t('What emotions or even events that triggered those emotions influenced your inspiration?')}</h3>
                 <div className={classes.line}>
-                    <p>«Во время карантина у моей семьи был очень тяжелый период в жизни.На несколько месяцев мы
-                    потеряли работу из-за чего были частые ссоры и недопонимания и это мягко
-                    сказано.я пролил/а много слез.Мне было очень трудно и эти негативные эмоции
-                    копились во мне 4 месяца,пока в один момент я не выплеснул/а их на полотно.Я прошел/шла
-                    через четыре сильные эмоции :злость,обида, прощение и принятие.Именно этот этап поменял
-     меня полностью и я хочу поделиться чувствами со зрителем.</p>
+                    <p> {t('During the quarantine')}</p>
                 </div>
                 <div><img src={picTile6} alt="Main image" />
                     <a href=" https://etsy.me/39QEreK" >
                         anonymous</a>
                 </div>
-                <h3>Почему именно абстракционизм?</h3>
+                <h3> {t('Why abstract art?')}</h3>
 
                 <div className={classes.line}>
-                    <p>«Потому что здесь,я не должен/на передавать,то что я могу видеть глазами.Абстракционизм-это
-                    об твоем внутреннем состоянии,то что нельзя увидеть или прочитать.Я делюсь частичкой
-  себя и это сближает меня со всеми,кто видит мои картины»</p>
+                    <p> {t('Because here')}</p>
                 </div>
                 <div><img src={picTile7} alt="Main image" />
                     <a href=" https://etsy.me/39QEreK" >
                         anonymous</a>
                 </div>
-                <h3>Есть ли у тебя какие-нибудь ритуалы, которым ты следуешь, прежде чем начать творить? Приметы, в которые веришь?</h3>
+                <h3> {t('Do you have any rituals that you follow before you start creating? Signs you believe in?')}</h3>
 
                 <div className={classes.line}>
-                    <p>«Это будет звучать скучно,но я люблю раскладывать кисти ,баночки,краски.Очень люблю
-                    стелить пленку на пол ,а потом ложить на нее холст,всегда создается впечатление,словно сейчас
-  произойдет что-то магическое»</p>
+                    <p> {t('It will sound boring')}</p>
                 </div>
                 <div><img src={picTile8} alt="Main image" />
                     <a href=" https://etsy.me/39QEreK" >
                         anonymous</a>
                 </div>
-                <h3>Что делает тебя счастливым/ой?</h3>
+                <h3> {t('What makes you happy?')}</h3>
                 <div className={classes.line}>
 
-                    <p>«Когда я один на один,я могу поговорить с собой и избавиться от негатива.Как я говорил/а ранее
-     в этом мне помогает искусство,именно оно спасло меня и сделало счастливым/ой»</p>
+                    <p> {t('When I am alone')}</p>
 
                 </div>
-                <h3>Было приятно с вами сегодня побеседовать. Спасибо за уделенное нам время, ответы на вопросы и внимательность. Желаем творческих успехов</h3>
+                <h3> {t('It was nice to talk')}</h3>
                 <div className={classes.endLine}>
                 </div>
 

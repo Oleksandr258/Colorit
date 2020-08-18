@@ -13,26 +13,27 @@ import picTile10 from '../../../img/e10.jpg';
 import picTile11 from '../../../img/e11.jpg';
 import picTile12 from '../../../img/e12.jpg';
 import picTile13 from '../../../img/e13.jpg';
-
+import { useTranslation } from 'react-i18next';
 
 
 const Embroidery = () => {
+    const { t, i18n } = useTranslation();
     return (
         <div className={classes.pageContent}>
             <div className={classes.titleLine}>
-                ИСКУССТВО ВЫШИВКИ ИЛИ ЗОЛОТЫЕ РУЧКИ
+                {t('EMBROIDERY ART OR GOLDEN HANDS')}
             </div>
             <div className={classes.pageContent2}>
 
                 <div className={classes.smallText}>
-                    <p>Мы взяли интервью у чудесной  рукодельницы @djozefinna_embroidery </p>
+                    <p>{t('We interviewed a wonderful needlewoman')} </p>
                 </div>
 
 
 
-                <h3>Что сподвигло Вас заниматься вышивкой бисером ?</h3>
+                <h3>{t('What prompted you to do beadwork?')}</h3>
                 <div className={classes.line}>
-                    <p>«На четвёртом курсе универа я возвращалась домой в часов 2  и сидела дома.Муж был на работе и мне было скучно и не было что делать,тогда я решила  повышивать.Сначала нашла свои старые схемы крестиком и довышивала ,потом подумала что нужно что-то необычное и сделала работу гладью,потом бисером ,а потом начала продавать»</p>
+                    <p>{t('In my fourth year of university')}</p>
                 </div>
                 <div className={classes.collage1}>
                     <div className={classes.pic1}>
@@ -44,9 +45,9 @@ const Embroidery = () => {
                 </div>
 
 
-                <h3>Что или кто Вас вдохновляет?</h3>
+                <h3>{t('What or who inspires you?')}</h3>
                 <div className={classes.line}>
-                    <p>« Меня вдохновляют работы других дизайнеров модельеров ,очень вдохновляет  природа и исскуство»</p>
+                    <p>{t('I am inspired by')}</p>
                 </div>
                 <div className={classes.collage3}>
                     <div className={classes.pic3}>
@@ -58,9 +59,9 @@ const Embroidery = () => {
                 </div>
 
 
-                <h3>Вы единственный творческий человек в семье?</h3>
+                <h3>{t('Are you the only creative person in the family?')}</h3>
                 <div className={classes.line}>
-                    <p>«У меня очень творческая семья,я врач и моя бабушка врач и она всю жизнь   пела в хоре ,мама поет,дядя фотограф,сестра иллюстратор.У нас каждый проявляется в творчестве по своему .Вышивать, кстати, меня научила бабушка и тетя»</p>
+                    <p>{t('I have a very creative family')}</p>
                 </div>
                 <div className={classes.collage5}>
                     <div className={classes.pic5}>
@@ -72,15 +73,15 @@ const Embroidery = () => {
                 </div>
 
 
-                <h3>Как выглядят Ваши самые первые работы?</h3>
+                <h3>{t('What do your very first works look like?')}</h3>
                 <div className={classes.line}>
-                    <p>С детства есть плетеная бабочка из бисера,еще есть работы которые я начинала 5 лет назад,выглядят довольно неплохо.</p>
+                    <p>{t('I heve a braided butterfly made')}</p>
                 </div>
                 <div className={classes.pic7}><img src={picTile7} alt="Main image" /></div>
 
-                <h3>Что Вы делаете когда пропадает мотивация что-либо творить?</h3>
+                <h3>{t('What do you do when the motivation to create something disappears?')}</h3>
                 <div className={classes.line}>
-                    <p>«У меня такое случается каждые пол года.Тогда я  откладываю и не беру заказы и просто пытаюсь переключиться на какие-то свои проекты .Потому что я работаю на заказ и это очень важно и тяжело именно с точки отношения к человеку, как он хочет сделать,я к этому очень ответственно отношусь , а в своих проектах я могу эксперементировать больше с фактурами ,формами и материалами»</p>
+                    <p>{t('This happens every half a year')}</p>
                 </div>
                 <div className={classes.collage8}>
                     <div className={classes.pic8}>
@@ -92,16 +93,16 @@ const Embroidery = () => {
                 </div>
 
 
-                <h3>Что Вы чувствуете когда занимаетесь любимым делом ?</h3>
+                <h3>{t('How do you feel when doing what you love?')}</h3>
                 <div className={classes.line}>
-                    <p>« На самом деле я и медицину очень люблю и не могу сказать что вышивка это мое единственное любимое дело в жизни ,я думаю что не нужно концентрироваться на чем-то одном .Да ,я получила  образование и работала врачом ,но сейчас в данный момент своей жизни  и развития  я поняла что хочу заниматься именно творчеством,даже не то что любимым делом ,а в принципе творчеством,потому что вышивка ,что бы это кто-то замечал нужно и красиво фотографировать и преподносить ,и вести соц сети это все большая творческая и в какой-то степени не очень творческая работа .Когда я просыпаюсь утром, я понимаю,что я хочу идти в мастерскую делать это все ,ездить на встречи устраивать фотосессии ,я чувствую желание это делать.Как только оно пропадет ,наверное займусь чем-то другим.</p>
+                    <p>{t('In fact, I love medicine')}</p>
                 </div>
-                
 
-                    <h3>Было приятно с вами сегодня побеседовать. Спасибо за уделенное нам время, ответы на вопросы и внимательность. Желаем творческих успехов</h3>
-                    <div className={classes.endLine}>
-                    </div>
-                
+
+                <h3>{t('It was nice to talk')}</h3>
+                <div className={classes.endLine}>
+                </div>
+
             </div>
 
         </div>

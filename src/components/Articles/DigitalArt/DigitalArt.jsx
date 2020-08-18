@@ -6,12 +6,15 @@ import picTile3 from '../../../img/d2.jpg';
 import picTile4 from '../../../img/d3.jpg';
 import picTile5 from '../../../img/d4.jpg';
 import picTile6 from '../../../img/d5.jpg';
+import { useTranslation } from 'react-i18next';
 
 const DigitalArt = () => {
+        const { t, i18n } = useTranslation();
     return (
         <div className={classes.pageContent}>
             <div className={classes.titleLine}>
-                КОМПЬЮТЕРНОЕ ИСКУССТВО
+            {t('DIGITAL ART')}    
+            {t('')}
             </div>
             <div className={classes.pageContent2}>
 
@@ -22,7 +25,7 @@ const DigitalArt = () => {
                     @raretempter
                
                 <div className={classes.line}>
-                    <p>Все больше оборотов набирает диджитал искусство.Уже многие художники перешли на планшеты и стали писать свои творения там.Стало ли хуже?Мы думаю,что нет.Ведь мы идем в перед и открываем новые блоки искусства,очень крутым примером такой работы есть @raretempter -иллюстратор,который просто взрывает соц.сети своими рисунками.</p>
+                    <p>{t('Many artists have already switched')}</p>
                 </div>
                
 
@@ -38,8 +41,7 @@ const DigitalArt = () => {
 
 
                 <div className={classes.line}>
-                    <p>Здесь и комиксы и авторская адаптация персонажев Дисней ,селебрети и много других чудесных работ. 
-Но не спешите назвать это талантом,за талантом такого масштаба стоят часы тяжелой работы над рисунком и над собой.</p>
+                    <p>{t('Here are author')}</p>
                 </div>
                 
                 <div className={classes.collage5}>
@@ -53,8 +55,7 @@ const DigitalArt = () => {
                 </div>
 
                 <div className={classes.line}>
-                    <p>@raretempter  показывает удивительную сторону диджитал,можно часами наблюдать за ее картинами и даже за процессом создания шедевров!!!
-Желаем удачи в творчестве и во всех творческих начинаниях</p>
+                    <p>{t('@raretempter shows the amazing')}</p>
                 </div>
                 
        

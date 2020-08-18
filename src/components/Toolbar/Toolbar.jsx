@@ -1,6 +1,6 @@
 import React from 'react';
 import classes from './Toolbar.module.css';
-
+import LangMenu from '../LangMenu/LangMenu';
 
 
 const Toolbar = () => {
@@ -8,7 +8,7 @@ const Toolbar = () => {
 
     <div className={classes.toolbar}>
 <div>
-
+<LangMenu />
 </div>
         
 </div>
