@@ -31,7 +31,7 @@ import NewAbstractionist from './components/Articles/NewAbstractionist/NewAbstra
 import Competition1 from './components/Articles/Competition/Competition1';
 import Competition2 from './components/Articles/Competition/Competition2';
 import Photographers from './components/Articles/Photographers/Photographers';
-
+import { useTranslation } from 'react-i18next';
 
 
 
@@ -64,7 +64,7 @@ class App extends Component {
 
 
 
-
+    
 
     return (
 

@@ -7,7 +7,7 @@ const Toolbar = () => {
     return (
 
     <div className={classes.toolbar}>
-<div>
+<div className={classes.langMenuWrapper}>
 <LangMenu />
 </div>
         

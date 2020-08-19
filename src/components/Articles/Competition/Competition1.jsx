@@ -1,13 +1,14 @@
 import React from 'react';
 import classes from './Competition.module.css';
-
+import { useTranslation } from 'react-i18next';
 
 
 const Competition1 = () => {
+    const { t, i18n } = useTranslation();
     return (
         <div className={classes.pageContent}>
             <div className={classes.titleLine}>
-                КОНКУРС НА ЛУЧШУЮ СТАТЬЮ ОБ ИСКУССТВЕ
+            {t('COMPETITION FOR THE BEST ARTICLE ABOUT ART')}
             </div>
 
             <div className={classes.endLine}>
@@ -16,24 +17,22 @@ const Competition1 = () => {
             <div className={classes.pageContent2}>
            
                 <div className={classes.line}>
-                    <p>Друзья!</p>
-<p>Наша команда объявляет конкурс.Тот,кто одержит победу,сможет размещать свои статьи в журнале и получить супер приз 5 000$.Участвовать может каждый!! Неважно из какой вы страны и на какой языке разговариваете.Это твой счастливый шанс,так ИСПОЛЬЗУЙ ЕГО!!</p>
+                    <p>{t('Friends!')}</p>
+<p>{t('Our team announces a competition')}</p>
 <br></br>
- <p>Условия конкурса:</p>
+ <p>{t('Conditions of the competition:')}</p>
 
-<p>-быть старше 14 лет</p>
-<p>-писать об искусстве </p>
-<p>-участие 10$</p>
-<p>-писать статью  максимум на 2 страницы</p> 
+<p>{t('-be over 14 years old')}</p>
+<p>{t('-write about art')}</p>
+<p>{t('-participation 10 $')}</p>
+<p>{t('-write an article with a maximum of 2 pages')}</p> 
 <br></br>
-<p>Вы должны написать статью об искусстве(фото,изобразительно искусство,скульптура,архитектура,интересные личности и тд).Ваша статья должна быть эксклюзивной и интересной.
-Нажимайте на кнопку «учавствовать» и в магазине ищите подходящий билет который в наличии (три публикации одного билета)и покупайте билет.После того как вы получили билет.Вы пишите статью и скидываете ее вместе со своим билетом (пронумерованным) на этот электронный адрес  colorit_competition@mail.ru  .Всего может быть 2000 участников.
-Всем удачи!!</p>
+<p>{t('You must write an article about art')}</p>
                 </div>
                 <div className={classes.line}>
-                    <p>Ссылка на билеты для участия в конкурсе</p> 
+                    <p>{t('Link to tickets for participation in the competition:')}</p> 
                         <a href="https://etsy.me/31fTvP6" > 
-                    https://etsy.me/31fTvP6</a> 
+                        {t('To buy tickets')} </a> 
                          
                 </div>
                 

@@ -7,7 +7,21 @@ const resources = {
 
     ru: {
         translation: {
-            "WelcomeToReact": "Добро пожаловать в React и react-i18next",
+            "YOUTH JOURNAL OF CONTEMPORARY ART": "МОЛОДЕЖНЫЙ ЖУРНАЛ О СОВРЕМЕННОМ ИСКУССТВЕ",
+
+            "HOME": "ГЛАВНАЯ",
+            "HEADING \"INTERVIEW WITH A BEGINNER\"": "РУБРИКА \"ИНТЕРВЬЮ У НАЧИНАЮЩЕГО\"",
+            "ART NEWS": "НОВОСТИ ИСКУССТВА",
+            "TIPS": "СОВЕТЫ",
+            "SPACES FOR INSPIRATION": "МЕСТА ДЛЯ ВДОХНОВЕНИЯ",
+            "ARTISTS SCULPTORS": "ХУДОЖНИКИ СКУЛЬПТОРЫ",
+            "NEWS OF THE DAY": "НОВОСТЬ ДНЯ",
+            "INTERVIEW WITH A CREATIVE PERSON": "ИНТЕРВЬЮ У ТВОРЧЕСКОГО ЧЕЛОВЕКА",
+            "DISCOVERY OF THE ART": "ОТКРЫТИЕ ИСКУССТВА",
+
+
+
+            
             "TOP 5 MOST BEAUTIFUL LANDSCAPE LOCATIONS": "ТОП 5 САМЫХ КРАСИВЫХ МЕСТ ДЛЯ ПЕЙЗАЖА",
             "Bosnia and Herzegovina": "Благай, Босния и Герцеговина",
             "Blagaj is a small village": "Благай - это небольшая деревушка, в которой среди маленьких водопадов и лазоревых вод под вертикальной отвесной горой стоят небольшие белоснежные жилища, а в центре высится монастырь.Это святое пространство для дервишей и суфиев, которые и возвели построили деревню в данном раю.",
@@ -64,7 +78,19 @@ const resources = {
             "Here are author": "Здесь и комиксы и авторская адаптация персонажев Дисней ,селебрети и много других чудесных работ. Но не спешите назвать это талантом,за талантом такого масштаба стоят часы тяжелой работы над рисунком и над собой.",
             "@raretempter shows the amazing": "@raretempter  показывает удивительную сторону диджитал,можно часами наблюдать за ее картинами и даже за процессом создания шедевров!!! Желаем удачи в творчестве и во всех творческих начинаниях",
 
-
+            "COMPETITION FOR THE BEST ARTICLE ABOUT ART": "КОНКУРС НА ЛУЧШУЮ СТАТЬЮ ОБ ИСКУССТВЕ",
+            "COMPETITION FOR THE BEST STORY ABOUT ART": "КОНКУРС НА ЛУЧШУЮ ИСТОРИЮ ОБ ИСКУССТВЕ",
+            "Friends!": "Друзья!",
+            "Our team announces a competition": "Наша команда объявляет конкурс.Тот,кто одержит победу,сможет размещать свои статьи в журнале и получить супер приз 5 000$.Участвовать может каждый!! Неважно из какой вы страны и на какой языке разговариваете.Это твой счастливый шанс,так ИСПОЛЬЗУЙ ЕГО!!",
+            "Conditions of the competition:": "Условия конкурса:",
+            "-be over 14 years old": "-быть старше 14 лет",
+            "-write about art": "-писать об искусстве",
+            "-participation 10 $": "-участие 10$",
+            "-write an article with a maximum of 2 pages": "-писать статью  максимум на 2 страницы",
+            "You must write an article about art": "Вы должны написать статью об искусстве(фото,изобразительно искусство,скульптура,архитектура,интересные личности и тд).Ваша статья должна быть эксклюзивной и интересной. Нажимайте на кнопку «учавствовать» и в магазине ищите подходящий билет который в наличии (три публикации одного билета)и покупайте билет.После того как вы получили билет.Вы пишите статью и скидываете ее вместе со своим билетом (пронумерованным) на этот электронный адрес  colorit_competition@mail.ru  .Всего может быть 2000 участников. Всем удачи!!",
+            "Link to tickets for participation in the competition:": "Ссылка на билеты для участия в конкурсе:",
+"To buy tickets": "Купить билеты",
+"You must write an interesting story": "Вы должны написать интересную историю связанную с искусством или фольклором . Нажимайте на кнопку \«учавствовать\» и в магазине ищите подходящий билет который в наличии (три публикации одного билета)и покупайте билет. После того как вы получили билет.Вы пишите историю и скидываете ее вместе со своим билетом (пронумерованным) на этот электронный адрес  colorit_competition@mail.ru  .Всего может быть 2000 участников. Всем удачи!!",
 
 
         }
@@ -72,7 +98,20 @@ const resources = {
 
     en: {
         translation: {
-            "WelcomeToReact": "Welcome to React and react-i18next",
+            "YOUTH JOURNAL OF CONTEMPORARY ART": "YOUTH JOURNAL OF CONTEMPORARY ART",
+
+            "HOME": "HOME",
+            "HEADING \"INTERVIEW WITH A BEGINNER\"": "HEADING \"INTERVIEW WITH A BEGINNER\"",
+            "ART NEWS": "ART NEWS",
+            "TIPS": "TIPS",
+            "SPACES FOR INSPIRATION": "SPACES FOR INSPIRATION",
+            "ARTISTS SCULPTORS": "ARTISTS SCULPTORS",
+            "NEWS OF THE DAY": "NEWS OF THE DAY",
+            "INTERVIEW WITH A CREATIVE PERSON": "INTERVIEW WITH A CREATIVE PERSON",
+            "DISCOVERY OF THE ART": "DISCOVERY OF THE ART",
+
+
+            
             "TOP 5 MOST BEAUTIFUL LANDSCAPE LOCATIONS": "TOP 5 MOST BEAUTIFUL LANDSCAPE LOCATIONS",
             "Bosnia and Herzegovina": "Bosnia and Herzegovina",
             "Blagaj is a small village": "Blagaj is a small village in which, among small waterfalls and azure waters under a vertical sheer small snow- white dwellings stand uphill, and a monastery rises in the center.This is a sacred space for dervishes and Sufis, who built a village in this paradise.",
@@ -128,6 +167,19 @@ const resources = {
             "Here are author": "Here are author's adaptations of Disney characters, celebrities and many other wonderful works. But do not rush to call it a talent, behind a talent of this magnitude there are hours of hard work on the ddrawins and yourself",
             "@raretempter shows the amazing": "@raretempter shows the amazing side of Digital, you can watch her paintings and even the process of creating masterpieces for hours !!! We wish you good luck in your work and new begginigs.",
 
+            "COMPETITION FOR THE BEST ARTICLE ABOUT ART": "COMPETITION FOR THE BEST ARTICLE ABOUT ART",
+            "COMPETITION FOR THE BEST STORY ABOUT ART": "COMPETITION FOR THE BEST STORY ABOUT ART",
+"Friends!": "Friends!",
+"Our team announces a competition": "Our team announces a competition. Anyone who wins will be able to post their articles in the magazine and receive a super prize of $ 5,000. Everyone can participate !!  No matter what country you are from and what language you speak, this is your lucky chance, so USE IT !!",
+"Conditions of the competition:": "Conditions of the competition:",
+"-be over 14 years old": "-be over 14 years old",
+"-write about art": "-write about art",
+"-participation 10 $": "-participation 10 $",
+"-write an article with a maximum of 2 pages": "-write an article with a maximum of 2 pages",
+"You must write an article about art": "You must write an article about art (photography, fine art, sculpture, architecture, interesting personalities, etc.). Your article must be exclusive and interesting. Click on the button \"participate\" and in the store look for a suitable ticket that is available (three publications of one ticket) and buy a ticket. After you have received a ticket. You write an article and drop it along with your ticket (numbered) to this email address colorit_competition@mail.ru .there can be 2,000 members in total. Good luck to all!!",
+"Link to tickets for participation in the competition:": "Link to tickets for participation in the competition:",
+"To buy tickets": "To buy tickets",
+"You must write an interesting story": "You must write an interesting story related to art or folklore.  Click on the \"participate\" button and in the store look for a suitable ticket that is available (three publications of one ticket) and buy a ticket.  After you have received your ticket, you write a story and drop it along with your ticket (numbered) to this email address  colorit_competition@mail.ru .There can be a total of 2000 participants. Good luck to all!!",
 
 
         }

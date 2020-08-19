@@ -14,7 +14,7 @@ const DigitalArt = () => {
         <div className={classes.pageContent}>
             <div className={classes.titleLine}>
             {t('DIGITAL ART')}    
-            {t('')}
+            
             </div>
             <div className={classes.pageContent2}>
 

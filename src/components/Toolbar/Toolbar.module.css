@@ -8,3 +8,8 @@
      
       
     }
+    .langMenuWrapper {
+      float: right;
+      margin-right: 18vw;
+      margin-top: 8px;
+    }
