@@ -29,10 +29,13 @@ import Competition1 from "./components/Articles/Competition/Competition1";
 import Competition2 from "./components/Articles/Competition/Competition2";
 import Photographers from "./components/Articles/Photographers/Photographers";
 import { createBrowserHistory } from "history";
-
+import i18n from './i18n/i18n';
 export const history = createBrowserHistory();
 
+
+
 class App extends Component {
+
   state = {
     sideDrawerOpen: false,
   };
@@ -46,8 +49,22 @@ class App extends Component {
     this.setState({ sideDrawerOpen: false });
   };
 
+  handleClick = (lang) => {
+    i18n.changeLanguage(lang);
+    // return { 
+    //   lang: (lang) => {
+    //     lang
+    //   }, 
+    // };
+
+
+
+
+  }
+
   render() {
     let backdrop;
+
 
     if (this.state.sideDrawerOpen) {
       backdrop = <Backdrop click={this.backdropClickHandler} />;
@@ -73,43 +90,32 @@ class App extends Component {
                 <Navbar />
               </div>
               <div className="app-wrappet-content-main">
-                <Router>
-                  <Switch>
-                    <Route
-                      path="/inspirationspaces/blagaj"
-                      component={Blagaj}
-                    />
-                    <Route path="/" exact component={Content} />
-                    <Route path="/artnews" component={ArtNews} />
-                    <Route
-                      path="/interviewwithbeginner"
-                      component={InterviewWithBeginner}
-                    />
-                    <Route path="/advices" component={Advices} />
-                    <Route
-                      path="/inspirationspaces"
-                      component={InspirationSpaces}
-                    />
-                    <Route
-                      path="/artistssculptors"
-                      component={ArtistsSculptors}
-                    />
-                    <Route path="/newsoftheday" component={NewsOfTheDay} />
-                    <Route path="/creativeperson" component={CreativePerson} />
-                    <Route path="/artdiscover" component={Artdiscover} />
-                    <Route path="/embroidery" component={Embroidery} />
-                    <Route
-                      path="/newabstractionist"
-                      component={NewAbstractionist}
-                    />
-                    <Route path="/digitalart" component={DigitalArt} />
-                    <Route path="/competition1" component={Competition1} />
-                    <Route path="/competition2" component={Competition2} />
-                    <Route path="/photographers" component={Photographers} />
+                {/* <Router> */}
+                {/* <Switch> */}
+                <Route path="/blagaj" render={() => <Blagaj />} />
 
-                    <Redirect from="/" to="/home" />
-                  </Switch>
-                </Router>
+                <Route path="/" exact render={() => <Content />} />
+                <Route path="/artnews" render={() => <ArtNews />} />
+                <Route path="/interviewwithbeginner" render={() => <InterviewWithBeginner />} />
+
+                <Route path="/advices" render={() => <Advices />} />
+                <Route path="/inspirationspaces" render={() => <InspirationSpaces />} />
+
+                <Route path="/artistssculptors" render={() => <ArtistsSculptors />} />
+
+                <Route path="/newsoftheday" render={() => <NewsOfTheDay />} />
+                <Route path="/creativeperson" render={() => <CreativePerson />} />
+                <Route path="/artdiscover" render={() => <Artdiscover />} />
+                <Route path="/embroidery" render={() => <Embroidery />} />
+                <Route path="/newabstractionist" render={() => <NewAbstractionist />} />
+                <Route path="/digitalart" render={() => <DigitalArt />} />
+                <Route path="/competition1" render={() => <Competition1 />} />
+                <Route path="/competition2" render={() => <Competition2 />} />
+                <Route path="/photographers" render={() => <Photographers />} />
+
+                <Redirect from="/" to="/home" />
+                {/* </Switch>
+                </Router> */}
               </div>
             </div>
           </div>

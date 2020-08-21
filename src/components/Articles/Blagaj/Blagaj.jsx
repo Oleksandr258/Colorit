@@ -7,20 +7,20 @@ import picTile4 from '../../../img/n4.jpg';
 import picTile5 from '../../../img/n5.jpg';
 
 import { useTranslation } from 'react-i18next';
-import LangMenu from '../../LangMenu/LangMenu';
 
 
 
-function Blagaj  ()  {
+
+function Blagaj() {
     const { t, i18n } = useTranslation();
     return (
         <div className={classes.pageContent}>
             <div className={classes.titleLine}>
-                {t('TOP 5 MOST BEAUTIFUL LANDSCAPE LOCATIONS')}  
-                
+                {t('TOP 5 MOST BEAUTIFUL LANDSCAPE LOCATIONS')}
+
             </div>
             <div className={classes.pageContent2}>
-<LangMenu />
+
 
                 <h3>{t('Bosnia and Herzegovina')}</h3>
                 <div><img src={picTile1} alt="Main image" />
@@ -69,7 +69,7 @@ function Blagaj  ()  {
             </div>
 
         </div>
-        
+
     )
 }
 

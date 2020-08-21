@@ -3,6 +3,7 @@ import './InterviewWithBeginner.css'
 import picTile from '../../../img/i2.jpg';
 import picTile3 from '../../../img/i3.jpg';
 import { useTranslation } from 'react-i18next';
+import {NavLink} from 'react-router-dom';
 
 const InterviewWithBeginner = () => {
     const { t, i18n } = useTranslation();
@@ -14,8 +15,8 @@ const InterviewWithBeginner = () => {
             <div className="interviewWrapper" >
 
 
-                <li><a href="/newabstractionist" > <img src={picTile} alt="anonimus" />
-                {t('NEWBREAKED ABSTRACTIST')}</a></li>
+                <li><NavLink to="/newabstractionist" > <img src={picTile} alt="anonimus" />
+                {t('NEWBREAKED ABSTRACTIST')}</NavLink></li>
 
             </div>
 

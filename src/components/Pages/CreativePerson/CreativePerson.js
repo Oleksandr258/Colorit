@@ -4,6 +4,7 @@ import picTile from '../../../img/i5.jpg';
 import picTile2 from '../../../img/i2.jpg';
 import picTile3 from '../../../img/b3.jpg';
 import { useTranslation } from 'react-i18next';
+import {NavLink} from 'react-router-dom';
 
 const CreativePerson = () => {
     const { t, i18n } = useTranslation();
@@ -17,11 +18,11 @@ const CreativePerson = () => {
             <div className="artistsSculptorsCont">
 
                   
-        <li><a href="/embroidery" > <img src={picTile3} alt="embroidery" />
-        {t('EMBROIDERY ART OR GOLDEN HANDS')}</a></li>
+        <li><NavLink to="/embroidery" > <img src={picTile3} alt="embroidery" />
+        {t('EMBROIDERY ART OR GOLDEN HANDS')}</NavLink></li>
         
-        <li><a href="/newabstractionist" > <img src={picTile2} alt="anonimus" />
-        {t('NEWBREAKED ABSTRACTIST')}</a></li>
+        <li><NavLink to="/newabstractionist" > <img src={picTile2} alt="anonimus" />
+        {t('NEWBREAKED ABSTRACTIST')}</NavLink></li>
           </div>
 
         </div>

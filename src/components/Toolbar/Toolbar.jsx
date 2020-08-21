@@ -3,7 +3,7 @@ import classes from './Toolbar.module.css';
 import LangMenu from '../LangMenu/LangMenu';
 
 
-const Toolbar = () => {
+const Toolbar = (props) => {
     return (
 
     <div className={classes.toolbar}>
