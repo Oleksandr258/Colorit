@@ -60,8 +60,9 @@ class App extends Component {
 
   render() {
     let backdrop;
-
-
+    
+   
+    
     if (this.state.sideDrawerOpen) {
       backdrop = <Backdrop click={this.backdropClickHandler} />;
     }
@@ -69,8 +70,10 @@ class App extends Component {
     return (
       <BrowserRouter history={history} basename={process.env.PUBLIC_URL}>
         <div style={{ height: "100%" }}>
-          <SideDrawer show={this.state.sideDrawerOpen} />
+        
+          <SideDrawer show={this.state.sideDrawerOpen} click2={this.drawerToggleCklickHandler} />
           {backdrop}
+         
           <div className="App">
             <div className="app-wraper">
               <div className="app-wraper-header">
