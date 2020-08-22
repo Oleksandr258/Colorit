@@ -4,29 +4,29 @@ import i18n from '../../i18n/i18n';
 
 
  function LangMenu () {
-//     const { t, i18n } = useTranslation();
-//     const [locale, setLocale] = useState('ru');
-//     const handleChangeLocale = (lan) => {
-// setLocale(lan);
-// i18n.changeLanguage(lan);
-//     }
+     const { t, i18n } = useTranslation();
+     const [locale, setLocale] = useState('ru');
+     const handleChangeLocale = (lan) => {
+ setLocale(lan);
+ i18n.changeLanguage(lan);
+     }
 
-function handleClick(lang) {
-    i18n.changeLanguage(lang);
-}
+// function handleClick(lang) {
+//     i18n.changeLanguage(lang);
+// }
 
 
 return (
     <div>
-        {/* <select value={locale} onChange={(e) => handleChangeLocale(e.target.value)}>
+        <select value={locale} onChange={(e) => handleChangeLocale(e.target.value)}>
             <option value="ru">Ru</option>
             <option  value="en">Eng</option>
-            </select> */}
+            </select>
 
-        <nav>
+        {/* <nav>
             <button onClick={() => handleClick('en')}>English</button>
             <button onClick={() => handleClick('ru')}>Russian</button>
-        </nav>
+        </nav> */}
 
     </div>
 );

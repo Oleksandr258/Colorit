@@ -49,18 +49,14 @@ class App extends Component {
     this.setState({ sideDrawerOpen: false });
   };
 
-  handleClick = (lang) => {
-    i18n.changeLanguage(lang);
-    // return { 
-    //   lang: (lang) => {
-    //     lang
-    //   }, 
-    // };
-
-
-
-
-  }
+  // handleClick = (lang) => {
+  //   i18n.changeLanguage(lang);
+  //   return {
+  //     lang: (lang) => {
+  //       lang
+  //     },
+  //   };
+  // }
 
   render() {
     let backdrop;
@@ -113,7 +109,7 @@ class App extends Component {
                 <Route path="/competition2" render={() => <Competition2 />} />
                 <Route path="/photographers" render={() => <Photographers />} />
 
-                <Redirect from="/" to="/home" />
+
                 {/* </Switch>
                 </Router> */}
               </div>
